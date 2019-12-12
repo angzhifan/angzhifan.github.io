@@ -13,7 +13,7 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Andrew Fan
-  tagline: a Ph.D. student in the University of Chicago
+  tagline: a Ph.D. student in UChicago
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
 
@@ -21,7 +21,7 @@ plainwhite:
   social_links:
     twitter: AndrewF32566573
     github:  angzhifan
-    linkedIn: in/thelehhman
+    linkedIn: in/angzhi-andrew-fan-3b1956119
     rss: rss
     # dribbble: jekyll
     # facebook: jekyll
