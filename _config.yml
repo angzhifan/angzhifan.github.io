@@ -19,12 +19,12 @@ plainwhite:
 
   # generate social links in footer
   social_links:
-    facebook: andrew.fan.75839
     github:  angzhifan
     linkedIn: in/angzhi-andrew-fan-3b1956119
+    facebook: andrew.fan.75839
     rss: rss
     # dribbble: jekyll
-    # facebook: jekyll
+    # twitter: jekyll
     # flickr:   jekyll
     # instagram: jekyll
     # linkedin: jekyll
