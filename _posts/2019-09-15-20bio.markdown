@@ -4,7 +4,8 @@ title:  "General Info"
 #date:   2019-12-12 18:03:36 +0530
 #categories: Javascript NodeJS
 ---
-Angzhi Fan (范昂之), English name Andrew, is a first year Ph.D. student in the [Department of Statistics][stat] at the University of Chicago. Before coming to Chicago, he studied Pure and Applied Mathematics for 4 years at [Tsinghua University][thu] and then spent a year working in the Deep Learning industry in Shanghai. 
+Angzhi Fan (范昂之), English name Andrew, is a first year Ph.D. student in the [Department of Statistics][stat] at [the University of Chicago][uchi]. Before coming to Chicago, he studied Pure and Applied Mathematics for 4 years at [Tsinghua University][thu] and then spent a year working in the Deep Learning industry in Shanghai. 
 
 [stat]: https://stat.uchicago.edu 
 [thu]: https://www.tsinghua.edu.cn/publish/thu2018en/index.html
+[uchi]: https://www.uchicago.edu
