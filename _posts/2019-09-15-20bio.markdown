@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bio Sketch"
+title:  "General Info"
 #date:   2019-12-12 18:03:36 +0530
 #categories: Javascript NodeJS
 ---
