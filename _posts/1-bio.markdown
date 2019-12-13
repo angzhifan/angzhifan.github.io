@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Research"
-#date:   2019-12-12 21:03:36 +0530
+title:  "Bio Sketch"
+#date:   2019-12-12 18:03:36 +0530
 #categories: Javascript NodeJS
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+Angzhi Fan (范昂之) is a first year Ph.D. student in the Department of Statistics at the University of Chicago.
 
 ```javascript
 const Razorpay = require('razorpay');
