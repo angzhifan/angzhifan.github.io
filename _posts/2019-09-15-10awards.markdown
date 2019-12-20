@@ -5,8 +5,6 @@ title:  "Awards"
 #categories: Javascript NodeJS
 ---
 * First Prize at Chinese Mathematical Olympiad (CMO), 2013  
-
 * Haodushu Scholarship, 2015  
-
 * Guanghua Scholarship, 2016 
 
