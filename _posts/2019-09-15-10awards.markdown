@@ -1,10 +1,13 @@
 ---
 layout: post
-title:  "Awards"
+title:  "Awards and Scholarships"
 #date:   2019-12-12 21:03:36 +0530
 #categories: Javascript NodeJS
 ---
-* First Prize at Chinese Mathematical Olympiad (CMO), 2013  
-* Haodushu Scholarship, 2015  
 * Guanghua Scholarship, 2016 
+* Second Prize at Chinese Mathematical Competition for College Students with math major in Beijing Area (CMC-Beijing), 2016
+* Haodushu Scholarship, 2015  
+* First Prize at the 29th Chinese Mathematical Olympiad (CMO), 2013  
+* First Prize in Hunan province at the 29th National Mathematical Competition for high school students, 2013
+* First Prize in Hunan province at the 28th National Mathematical Competition for high school students, 2012  
 
