@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Teaching"
+#date:   2019-12-12 21:03:36 +0530
+#categories: Javascript NodeJS
+---
+* Course Assistant, STAT234, Statistical Models/Method-1, UChicago, Winter 2020 
