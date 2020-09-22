@@ -4,9 +4,10 @@ title:  "Awards and Scholarships"
 #date:   2019-12-12 21:03:36 +0530
 #categories: Javascript NodeJS
 ---
+* Hengda Scholarship, 2017 
 * Guanghua Scholarship, 2016 
 * Second Prize in Beijing area at the 8th Chinese Mathematical Competition for College Students with Math Major (CMC), 2016
-* Haodushu Scholarship, 2015  
+* Haodushu Scholarship, 2016  
 * First Prize at the 29th Chinese Mathematical Olympiad (CMO), 2013  
 * First Prize in Hunan province at the 29th National Mathematical Competition for high school students, 2013
 * First Prize in Hunan province at the 28th National Mathematical Competition for high school students, 2012  
