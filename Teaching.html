@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	{%- include head.html -%}
+    <meta charset="UTF-8">
+    <title>Teach</title>
 </head>
 <body>
-	<main class="container">
+    <main class="container">
 		<section class="about">
 			<img src="{{ "/assets/portfolio.png" | relative_url }}" alt="{{ site.plainwhite.name }}">
 			<h2>{{ site.plainwhite.name }}</h2>
@@ -17,10 +18,10 @@
 				<a href="https://www.linkedin.com/{{ site.plainwhite.social_links.linkedIn }}"><li><i class="icon-linkedin-squared"></i></li></a>
                 {%- endif -%}
                 {%- if site.plainwhite.social_links.facebook -%}
-				<a href="https://facebook.com/{{ site.plainwhite.social_links.facebook }}"><li><i class="/assets/facebook_logo.jpg"></i></li></a>
+                                <a href="https://facebook.com/{{ site.plainwhite.social_links.facebook }}"><li><i class="/assets/facebook_logo.jpg"></i></li></a>
                 {%- endif -%}
 			</ul>
-			<p>&copy; 2019</p>
+			<p>&copy; 2020</p>
 		</section>
 		<section class="content">
 			{{ content }}
