@@ -1,7 +1,0 @@
----
-layout: post
-title:  "Professional Skills"
-#date:   2019-12-12 21:03:36 +0530
-#categories: Javascript NodeJS
----
-Python, C++, R, Matlab, Tensorflow, SQL 
