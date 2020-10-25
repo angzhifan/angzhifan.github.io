@@ -1,39 +1,59 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Teach</title>
-</head>
-<body>
-    <main class="container">
-		<section class="about">
-			<img src="{{ "/assets/portfolio.png" | relative_url }}" alt="{{ site.plainwhite.name }}">
-			<h2>{{ site.plainwhite.name }}</h2>
-			<p class="tagline">{{ site.plainwhite.tagline }}</p>
-			<ul class="social">
-                {%- if site.plainwhite.social_links.github -%}
-				<a href="https://github.com/{{ site.plainwhite.social_links.github }}"><li><i class="icon-github-circled"></i></li></a>
-                {%- endif -%}
-                {%- if site.plainwhite.social_links.linkedIn -%}
-				<a href="https://www.linkedin.com/{{ site.plainwhite.social_links.linkedIn }}"><li><i class="icon-linkedin-squared"></i></li></a>
-                {%- endif -%}
-                {%- if site.plainwhite.social_links.facebook -%}
-                                <a href="https://facebook.com/{{ site.plainwhite.social_links.facebook }}"><li><i class="/assets/facebook_logo.jpg"></i></li></a>
-                {%- endif -%}
-			</ul>
-			<p>&copy; 2020</p>
-		</section>
-		<section class="content">
-			{{ content }}
-		</section>
-	</main>
-	{%- if site.plainwhite.analytics_id -%}
-	<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.plainwhite.analytics_id }}"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
-	</script>
-	{%- endif -%}
-</body>
-</html>
+---
+layout: default
+---
+{%- if page.title -%}
+<h1 class="page-heading">{{ page.title }}</h1>
+{%- endif -%}
+
+
+{%- if site.posts.size > 0 -%}
+<ul class="posts">
+  <li>
+    <h1 id="posts-label">personal website</h1>
+  </li>
+
+<!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+	  <a class="navbar-brand" href="default.html" >  <!-- can add sth -->  </a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+              <li><a href="/ ">Home</a></li>
+              <li class="active"><a href="#">Teaching</a></li>
+              <li><a href="Awards.html">Awards</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  <p> &nbsp; </p>
+
+  {%- for post in site.posts -%}
+  {%- if post.title== "Teaching"  -%}
+
+  <li>
+    <a class="post-link" href="{{ post.url | relative_url }}">
+      <h2 class="post-title">{{ post.title | escape }}</h2>
+    </a>
+    <div class="post-meta">
+    </div>
+    <div class="post">
+      {%- if site.show_excerpts -%}
+      {{ post.excerpt }}
+      {%- endif -%}
+    </div>
+  </li>
+  {%- endif -%}
+  {%- endfor -%}
+
+
+</ul>
+{%- endif -%}

@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Awards and Scholarships"
+#date:   2019-12-12 21:03:36 +0530
+#categories: Javascript NodeJS
+---
+* Hengda Scholarship, 2017.10 
+* Guanghua Scholarship, 2016.10 
+* Haodushu Scholarship, 2016.04  
+* First Prize (nationwide) at the 29th Chinese Mathematical Olympiad (CMO), 2013.12  
+* First Prize (Hunan province) at the 29th National Mathematical Competition for high school students, 2013.10
+* First Prize (Hunan province) at the 28th National Mathematical Competition for high school students, 2012.10  
+

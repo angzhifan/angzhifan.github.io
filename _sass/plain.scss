@@ -19,6 +19,7 @@ body {
 	margin: 0;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	padding-top: 40px;
 }
 
 img, embed, object, video {
@@ -64,7 +65,7 @@ main {
 		@media screen and (min-width: $mobileW + 1){
 			max-width: calc(100% - #{$leftWidth});
 			margin-left: $leftWidth;
-			width: 100%;
+			width: 80%;
 		}
 	}
 	.about {
@@ -128,11 +129,12 @@ main {
 		margin-bottom: 10px;
 	}
 }
+/*
 .post-date {
 	margin-right: 10px;
 	color: #555;
 	min-width: 150px;
-}
+} */
 .post-meta {
 	display: flex;
 	justify-content: space-between;
@@ -140,9 +142,9 @@ main {
 	@media screen and (max-width: $mobileW){
 		flex-direction: column-reverse;
 		align-items: baseline;	
-		.post-date {
+	/*	.post-date {
 			margin-bottom: 16px;
-		}
+		} */
 	}
 }
 .post-link {
@@ -166,7 +168,7 @@ main {
 	}
 }
 .post-container {
-	padding-left: 30px;
+	padding-left: 40px;
 }
 .post {
 	font-family: 'Merriweather', sans-serif;
@@ -194,4 +196,91 @@ main {
 	letter-spacing: 0.5px;
 	padding-bottom: 10px;
 	font-weight: normal;
+}
+
+
+
+/*  navbar */
+.navbar-nav > li{
+  padding-left:-10px;
+  padding-right:60px;
+}
+
+
+.container .navbar-header,
+.container .navbar-collapse {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* Always float the navbar header */
+.navbar-header {
+  float: left;
+}
+
+/* Undo the collapsing navbar */
+.navbar-collapse {
+  display: block !important;
+  height: auto !important;
+  padding-bottom: 0;
+  overflow: visible !important;
+}
+
+.navbar-toggle {
+  display: none;
+
+}
+.navbar-collapse {
+  border-top: 0;
+}
+
+.navbar-brand {
+  margin-left: -15px;
+}
+
+/* Always apply the floated nav */
+.navbar-nav {
+  float: left;
+  margin: 0;
+}
+.navbar-nav > li {
+  float: left;
+}
+.navbar-nav > li > a {
+  padding: 15px;
+}
+
+/* Redeclare since we override the float above */
+.navbar-nav.navbar-right {
+  float: right;
+}
+
+/* Undo custom dropdowns */
+.navbar .navbar-nav .open .dropdown-menu {
+  position: absolute;
+  float: left;
+  background-color: #fc0fc0;   /*fff; */
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-width: 0 1px 1px;
+  border-radius: 0 0 4px 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: #333;
+}
+.navbar .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > li > a:focus,
+.navbar .navbar-nav .open .dropdown-menu > .active > a,
+.navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #fff !important;
+  background-color: #428bca !important;
+}
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a,
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+  color: #999 !important;
+  background-color: transparent !important;
 }

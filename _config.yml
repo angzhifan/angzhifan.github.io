@@ -7,21 +7,26 @@ description: > # this means to ignore newlines until "show_exerpts:"
   Google search results) and in your feed.xml site description.
 show_excerpts: true # set to true to show excerpts on the homepage
 
+
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 sass:
   sass_dir: _sass
+
+posts1:
+  sass_dir: _posts1
+
 plainwhite:
   name: Andrew Fan
-  tagline: fana@galton.uchicago.edu
-  date_format: "%b %-d, %Y"
+  tagline: fana@uchicago.edu
+  #date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
 
   # generate social links in footer
   social_links:
     github:  angzhifan
     linkedIn: in/angzhi-andrew-fan-3b1956119
-    facebook: andrew.fan.75839
+    #facebook: andrew.fan.75839
     rss: rss
     # dribbble: jekyll
     # twitter: jekyll

@@ -3,6 +3,11 @@
 <head>
 	{%- include head.html -%}
 </head>
+
+
+
+
+
 <body>
 	<main class="container">
 		<section class="about">
@@ -16,9 +21,9 @@
                 {%- if site.plainwhite.social_links.linkedIn -%}
 				<a href="https://www.linkedin.com/{{ site.plainwhite.social_links.linkedIn }}"><li><i class="icon-linkedin-squared"></i></li></a>
                 {%- endif -%}
-                {%- if site.plainwhite.social_links.facebook -%}
+           <!--      {%- if site.plainwhite.social_links.facebook -%}
 				<a href="https://facebook.com/{{ site.plainwhite.social_links.facebook }}"><li><i class="/assets/facebook_logo.jpg"></i></li></a>
-                {%- endif -%}
+                {%- endif -%} -->
 			</ul>
 			<p>&copy; 2019</p>
 		</section>
@@ -30,7 +35,7 @@
 	<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.plainwhite.analytics_id }}"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
+	 	function gtag() { dataLayer.push(arguments); }
 		gtag('js', new Date());
 	</script>
 	{%- endif -%}

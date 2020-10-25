@@ -42,7 +42,7 @@ The "plainwhite" key in _config.yml is used to customize the theme data.
 plainwhite:
   name: Adam Denisov
   tagline: Developer. Designer
-  date_format: "%b %-d, %Y"
+  #date_format: "%b %-d, %Y"
 
   social_links:
     twitter: thelehhman
