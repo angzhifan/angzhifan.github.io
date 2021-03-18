@@ -5,5 +5,7 @@ title:  "Teaching"
 #categories: Javascript NodeJS
 ---
 At the University of Chicago, I worked as a TA for the following courses:
-* Teaching Assistant, STAT234, Statistical Models/Method-1, UChicago, Spring 2020 
 * Teaching Assistant, STAT234, Statistical Models/Method-1, UChicago, Winter 2020 
+* Teaching Assistant, STAT234, Statistical Models/Method-1, UChicago, Spring 2020 
+* Teaching Assistant, STAT234, Statistical Models/Method-1, UChicago, Fall 2020 
+* Teaching Assistant, STAT244, Statistical Theory/Method-1, UChicago, Winter 2021 
